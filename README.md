@@ -1,100 +1,50 @@
-::: {align="center"}
-# ⚡ JOHN BOURMPOULAS // SYSTEM ONLINE
+<div align="center">
+  <img src="./hero.svg" alt="John Bourmpoulas — Robotics, Embedded Systems and Software" width="100%" />
+</div>
 
-### `ROBOTICS` • `EMBEDDED SYSTEMS` • `SOFTWARE`
+<br/>
 
-`<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=INITIALIZING+ROBOTICS+SYSTEM...;BUILDING+INTELLIGENT+MACHINES;SOFTWARE+%2B+HARDWARE+%2B+AUTOMATION;SYSTEM+STATUS%3A+ONLINE" alt="Typing SVG" />`{=html}
-:::
+## `// SYSTEM PROFILE`
 
-------------------------------------------------------------------------
-
-``` text
-╔══════════════════════════════════════════════════════════════╗
-║                      SYSTEM PROFILE                          ║
-╠══════════════════════════════════════════════════════════════╣
-║  USER        : JOHN BOURMPOULAS                              ║
-║  FOCUS       : ROBOTICS / SOFTWARE / EMBEDDED SYSTEMS        ║
-║  STATUS      : LEARNING • BUILDING • EXPERIMENTING           ║
-║  LOCATION    : GREECE                                        ║
-╚══════════════════════════════════════════════════════════════╝
+```text
+NAME      : John Bourmpoulas
+FOCUS     : Robotics / Embedded Systems / Software
+LOCATION  : Greece
+STATUS    : Building • Learning • Experimenting
 ```
 
-## ◈ ABOUT_ME
+I’m interested in building systems that connect **software with the physical world** — robotics, embedded development, automation and intelligent machines.
 
-``` python
-john = {
-    "interests": ["Robotics", "Embedded Systems", "Software Development"],
-    "hardware": ["Raspberry Pi"],
-    "languages": ["Python", "Java"],
-    "mission": "Build systems where software meets the physical world."
-}
-```
+---
 
-I am interested in the intersection of **software, electronics and
-robotics** --- building projects that can sense, process and interact
-with the real world.
+## `// CORE SYSTEMS`
 
-> `// The best code doesn't just run. It moves something.`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,raspberrypi,arduino,linux,git,github,vscode&theme=dark" alt="Tech stack" />
+</p>
 
-------------------------------------------------------------------------
+---
 
-## ⚙ TECHNOLOGY_SYSTEMS
+## `// FEATURED MISSION`
 
-::: {align="center"}
-`<img src="https://skillicons.dev/icons?i=python,java,raspberrypi,linux,git,github,vscode&theme=dark" alt="Technology stack" />`{=html}
-:::
+### Petoi Robot Cat Nybble
+**Robotics • Python • Raspberry Pi • Hardware / Software Integration**
 
-------------------------------------------------------------------------
+Experimenting with robotic movement, control and embedded computing using the Petoi Nybble platform.
 
-## 🤖 ROBOTICS_PROJECTS
+---
 
-### 🐈 Petoi Robot Cat Nybble
+## `// GITHUB TELEMETRY`
 
-`PYTHON` `RASPBERRY PI` `ROBOTICS`
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JohnBourmpoulas&show_icons=true&hide_border=true&bg_color=00000000&title_color=00D4FF&icon_color=00D4FF&text_color=8B949E" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBourmpoulas&layout=compact&hide_border=true&bg_color=00000000&title_color=00D4FF&text_color=8B949E" alt="Top languages" />
+</p>
 
-Exploring robotic movement, control and hardware/software integration
-using the Petoi Nybble robotic cat platform.
+---
 
-### 🎮 Tic-Tac-Toe
+<div align="center">
 
-`JAVA` `SOFTWARE DEVELOPMENT`
+`BUILD // TEST // ITERATE // DEPLOY`
 
-A Java-based implementation focused on application logic and interface
-development.
-
-### 🔐 Password Generator
-
-`JAVA` `SECURITY UTILITIES`
-
-A password generation utility built while exploring Java and practical
-software development.
-
-------------------------------------------------------------------------
-
-## ◉ GITHUB_TELEMETRY
-
-::: {align="center"}
-`<img height="165" src="https://github-readme-stats.vercel.app/api?username=JohnBourmpoulas&show_icons=true&theme=transparent&hide_border=true&title_color=00E5FF&icon_color=00E5FF&text_color=9CA3AF" alt="GitHub stats" />`{=html}
-
-`<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBourmpoulas&layout=compact&theme=transparent&hide_border=true&title_color=00E5FF&text_color=9CA3AF" alt="Top languages" />`{=html}
-:::
-
-------------------------------------------------------------------------
-
-## ◈ CURRENT_MISSION
-
-``` text
-[01] EXPLORE ROBOTICS                    ██████████  ACTIVE
-[02] BUILD EMBEDDED PROJECTS             ███████░░░  IN PROGRESS
-[03] IMPROVE SOFTWARE ENGINEERING        ████████░░  IN PROGRESS
-[04] CONNECT CODE TO THE PHYSICAL WORLD  █████████░  PRIMARY MISSION
-```
-
-::: {align="center"}
-### `> SYSTEM READY_`
-
-**ROBOTS ARE SOFTWARE WITH A PHYSICAL PRESENCE.**
-
-![Profile
-Views](https://komarev.com/ghpvc/?username=JohnBourmpoulas&style=flat-square&color=00b8d4&label=SYSTEM+VISITORS)
-:::
+</div>
