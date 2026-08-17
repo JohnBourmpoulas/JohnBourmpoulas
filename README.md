@@ -22,32 +22,55 @@
 
 ```ts
 const ioannis = {
-  name: "Ioannis Bourmpoulas",
-  location: "Greece",
-  focus: ["Robotics", "Artificial Intelligence", "Embedded Systems"],
-
-  building: [
-    "Software",
-    "Embedded systems",
-    "Intelligent machines"
-  ],
-
-  technologies: {
-    programming: ["Python", "Java", "C++", "Dart", "PHP"],
-    embedded: ["Raspberry Pi", "Arduino"],
-    systems: ["Linux", "Git", "GitHub"],
-    tools: ["VS Code"]
-  },
+  role: "Information & Communication Systems Engineer",
 
   interests: [
     "Robotics",
-    "AI",
-    "Automation",
-    "Hardware / software integration"
+    "Artificial Intelligence",
+    "Autonomous Systems",
+    "Internet of Things"
   ],
 
-  currentMission:
-    "Build intelligent systems that connect software with the physical world."
+  focus: {
+    robotics: [
+      "Robotics Software Development",
+      "Autonomous & Intelligent Systems",
+      "Embedded Systems"
+    ],
+
+    ai: [
+      "Computer Vision",
+      "Large Language Models",
+      "AI Applications"
+    ],
+
+    engineering: [
+      "IoT",
+      "3D Modeling",
+      "3D Printing",
+      "Hardware / Software Integration"
+    ]
+  },
+
+  mission:
+    "Develop intelligent systems where AI, software and the physical world meet.",
+
+  approach: [
+    "Hands-on projects",
+    "Technical challenges",
+    "Continuous learning"
+  ],
+
+  rolesOfInterest: [
+    "Robotics Software Engineer",
+    "AI Engineer",
+    "Autonomous Systems Engineer",
+    "IoT Engineer",
+    "Robotics & AI Research Engineer"
+  ],
+
+  openTo:
+    "Connecting with engineers, researchers and professionals working on Robotics, AI and Autonomous Systems."
 };
 ```
 
