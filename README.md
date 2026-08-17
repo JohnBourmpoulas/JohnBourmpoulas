@@ -2,39 +2,21 @@
 
 <img src="./assets/hologram.svg" alt="Futuristic holographic interface" width="100%" />
 
-### Robotics • Embedded Systems • Artificial Intelligence
+<br>
 
-Building intelligent systems that connect software with the physical world.
+### Robotics · Embedded Systems · Artificial Intelligence
 
-</div>
+<sub>Building intelligent systems that connect software with the physical world.</sub>
 
----
+<br><br>
 
-## About
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnBourmpoulas&layout=compact&hide_border=true&bg_color=00000000&title_color=67e8f9&text_color=94a3b8&icon_color=67e8f9&langs_count=8&hide_title=true"
+  alt="Dynamic language telemetry"
+/>
 
-I focus on robotics, embedded development, automation and intelligent machines, with a strong interest in combining software, electronics and real-world systems.
+<br><br>
 
-## Core
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,raspberrypi,arduino,linux,git,github,vscode&theme=dark" alt="Core technologies" />
-</p>
-
-## Selected Work
-
-**Petoi Robot Cat Nybble**  
-Robotics • Python • Raspberry Pi • Hardware / Software Integration
-
-**Arduino Radar**  
-Arduino • Sensors • Servo Control • Processing
-
-**K1 Nexus**  
-Python • Desktop Software • 3D Printer Monitoring
-
----
-
-<div align="center">
-
-`BUILD // TEST // ITERATE // DEPLOY`
+<sub><code>BUILD // TEST // ITERATE // DEPLOY</code></sub>
 
 </div>
