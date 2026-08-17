@@ -1,0 +1,29 @@
+FINAL V7 PACKAGE
+
+Replace the profile repository contents with these files:
+
+README.md
+assets/
+  hologram.svg
+  typing.svg
+  languages.svg
+  footer.svg
+.github/
+  workflows/
+    update-languages.yml
+    snake.yml
+
+After upload:
+1. Settings > Actions > General > Workflow permissions > Read and write permissions.
+2. Actions > Update language telemetry > Run workflow.
+3. Actions > Generate contribution signal > Run workflow.
+4. Refresh your profile.
+
+This version:
+- uses the revised LinkedIn-based about_me.ts
+- keeps the animated JARVIS-style hologram
+- keeps the animated live typing panel
+- makes language telemetry more compact
+- renames contributions to activity_signal
+- removes the system_footer heading
+- uses a thinner animated footer
