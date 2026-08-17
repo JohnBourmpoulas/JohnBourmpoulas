@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="860" height="320">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#00d4ff" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+    <radialGradient id="glow" cx="75%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070b0f"/>
+    </radialGradient>
+  </defs>
+  <rect width="860" height="320" fill="url(#bgGrad)"/>
+  <rect width="860" height="320" fill="url(#grid)"/>
+  <rect width="860" height="320" fill="url(#glow)"/>
+  <line x1="0" y1="0" x2="860" y2="0" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+  <line x1="0" y1="319" x2="860" y2="319" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <text x="28" y="26" font-family="monospace" font-size="9" fill="#6e7d8a" letter-spacing="3">GITHUB.COM/JOHNBOURMPOULAS</text>
+  <circle cx="786" cy="21" r="4" fill="#00d4ff" opacity="0.9"/>
+  <circle cx="786" cy="21" r="7" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.4"/>
+  <text x="798" y="26" font-family="monospace" font-size="9" fill="#00d4ff" letter-spacing="2">ONLINE</text>
+  <line x1="28" y1="38" x2="832" y2="38" stroke="#1e2a35" stroke-width="1"/>
+  <text x="28" y="100" font-family="monospace" font-size="52" font-weight="700" fill="#e6edf3" letter-spacing="8">JOHN</text>
+  <text x="28" y="158" font-family="monospace" font-size="52" font-weight="700" fill="#e6edf3" letter-spacing="8">BOURMPOULAS</text>
+  <text x="28" y="186" font-family="monospace" font-size="11" fill="#00d4ff" letter-spacing="4">ROBOTICS  ◆  EMBEDDED SYSTEMS  ◆  SOFTWARE</text>
+  <text x="28" y="216" font-family="sans-serif" font-size="13" fill="#8b949e">Building intelligent systems where software meets the physical world.</text>
+  <path d="M28 48 L28 58" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <path d="M28 48 L38 48" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <path d="M832 272 L832 262" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <path d="M832 272 L822 272" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <rect x="28" y="236" width="148" height="22" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <text x="36" y="251" font-family="monospace" font-size="9" fill="#8b949e" letter-spacing="2">ROBOTICS LAB // ACTIVE</text>
+  <rect x="184" y="236" width="106" height="22" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <text x="192" y="251" font-family="monospace" font-size="9" fill="#8b949e" letter-spacing="2">EMBEDDED DEV</text>
+  <rect x="298" y="236" width="102" height="22" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <text x="306" y="251" font-family="monospace" font-size="9" fill="#8b949e" letter-spacing="2">GREECE-BASED</text>
+  <circle cx="680" cy="175" r="108" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.12" stroke-dasharray="4 4"/>
+  <circle cx="680" cy="175" r="88" fill="none" stroke="#00d4ff" stroke-width="0.4" opacity="0.18"/>
+  <circle cx="680" cy="175" r="88" fill="#00d4ff" fill-opacity="0.025"/>
+  <line x1="680" y1="67" x2="680" y2="57" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <line x1="680" y1="283" x2="680" y2="293" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <line x1="572" y1="175" x2="562" y2="175" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <line x1="788" y1="175" x2="798" y2="175" stroke="#00d4ff" stroke-width="1" opacity="0.5"/>
+  <rect x="636" y="115" width="88" height="76" rx="4" fill="#070b0f" stroke="#00d4ff" stroke-width="1.2" opacity="0.95"/>
+  <rect x="643" y="122" width="74" height="62" rx="2" fill="#00d4ff" fill-opacity="0.03" stroke="#00d4ff" stroke-width="0.4" opacity="0.4"/>
+  <rect x="648" y="131" width="20" height="13" rx="2" fill="#00d4ff" opacity="0.8"/><rect x="650" y="133" width="16" height="9" rx="1" fill="#070b0f"/><rect x="656" y="136" width="5" height="4" rx="1" fill="#00d4ff"/>
+  <rect x="692" y="131" width="20" height="13" rx="2" fill="#00d4ff" opacity="0.8"/><rect x="694" y="133" width="16" height="9" rx="1" fill="#070b0f"/><rect x="700" y="136" width="5" height="4" rx="1" fill="#00d4ff"/>
+  <rect x="649" y="156" width="62" height="4" rx="2" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+  <rect x="651" y="157" width="14" height="2" rx="1" fill="#00d4ff" opacity="0.6"/><rect x="669" y="157" width="8" height="2" rx="1" fill="#00d4ff" opacity="0.3"/><rect x="681" y="157" width="18" height="2" rx="1" fill="#00d4ff" opacity="0.5"/>
+  <rect x="667" y="191" width="26" height="10" rx="2" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+  <path d="M636 205 L602 213 L600 240 L628 241" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+  <path d="M724 205 L758 213 L760 240 L732 241" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+  <rect x="628" y="201" width="104" height="58" rx="3" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.4"/>
+  <rect x="634" y="207" width="92" height="46" rx="2" fill="#00d4ff" fill-opacity="0.02"/>
+  <line x1="634" y1="225" x2="726" y2="225" stroke="#00d4ff" stroke-width="0.3" opacity="0.3"/>
+  <circle cx="680" cy="240" r="9" fill="none" stroke="#00d4ff" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="680" cy="240" r="5" fill="#00d4ff" fill-opacity="0.4"/>
+  <circle cx="680" cy="240" r="2.5" fill="#00d4ff" opacity="0.9"/>
+</svg>
