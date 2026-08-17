@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs><radialGradient id="b"><stop stop-color="#0b1219"/><stop offset="1" stop-color="#04070a"/></radialGradient><radialGradient id="c"><stop stop-color="#d9fdff"/><stop offset=".22" stop-color="#55eaff" stop-opacity=".8"/><stop offset="1" stop-color="#00d9ff" stop-opacity="0"/></radialGradient><filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="430" fill="url(#b)"/>
+<g transform="translate(600 215)" fill="none" stroke="#43e9ff" stroke-linecap="round">
+<circle r="48" fill="url(#c)" stroke="none" filter="url(#g)"><animate attributeName="r" values="43;51;43" dur="4s" repeatCount="indefinite"/></circle>
+<ellipse rx="112" ry="34" stroke-width="1.2" opacity=".7" stroke-dasharray="22 14 5 13"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="112" ry="34" stroke-width=".9" opacity=".35" stroke-dasharray="12 18" transform="rotate(58)"><animateTransform attributeName="transform" type="rotate" from="58" to="-302" dur="17s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="112" ry="34" stroke-width=".9" opacity=".3" stroke-dasharray="8 16" transform="rotate(-58)"><animateTransform attributeName="transform" type="rotate" from="-58" to="302" dur="19s" repeatCount="indefinite"/></ellipse>
+<circle r="128" opacity=".18" stroke-dasharray="2 8"/><circle r="158" opacity=".1" stroke-dasharray="1 12"/>
+<path d="M0-158A158 158 0 0 1 158 0" opacity=".45" stroke-dasharray="28 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/></path>
+<circle r="68" opacity="0"><animate attributeName="r" values="68;160" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;0" dur="5.5s" repeatCount="indefinite"/></circle>
+</g>
+<g stroke="#43e9ff" opacity=".18" fill="none"><path d="M70 75V58h17M1130 75V58h-17M70 355v17h17M1130 355v17h-17"/><path d="M110 145h125m-125 16h85M1090 270H965m125 16h-85"/></g>
+<rect x="160" width="8" height="430" fill="#65efff" opacity=".04"><animate attributeName="x" values="160;1030;160" dur="9s" repeatCount="indefinite"/></rect>
+</svg>
