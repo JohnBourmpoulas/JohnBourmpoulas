@@ -1,0 +1,157 @@
+name: Update language telemetry
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate live language telemetry
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.request
+          from collections import Counter
+          from pathlib import Path
+          from html import escape
+
+          USER = "JohnBourmpoulas"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "JohnBourmpoulas-profile-telemetry",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          token = os.environ.get("GH_TOKEN")
+          if token:
+              headers["Authorization"] = "Bearer " + token
+
+          def get_json(url):
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
+
+          repos = []
+          page = 1
+
+          while True:
+              url = (
+                  "https://api.github.com/users/" + USER + "/repos"
+                  + "?per_page=100&page=" + str(page)
+                  + "&type=owner&sort=updated"
+              )
+              batch = get_json(url)
+
+              if not batch:
+                  break
+
+              repos.extend(batch)
+
+              if len(batch) < 100:
+                  break
+
+              page += 1
+
+          totals = Counter()
+
+          for repo in repos:
+              if repo.get("fork"):
+                  continue
+
+              try:
+                  totals.update(get_json(repo["languages_url"]))
+              except Exception as exc:
+                  print("Skipping", repo.get("name"), exc)
+
+          total_bytes = sum(totals.values()) or 1
+          languages = totals.most_common(7)
+
+          width = 900
+          top = 78
+          row_h = 36
+          height = top + max(len(languages), 1) * row_h + 24
+
+          rows = []
+
+          for index, (language, size) in enumerate(languages):
+              y = top + index * row_h
+              pct = (size / total_bytes) * 100
+              bar_width = max(3, round(470 * pct / 100, 1))
+
+              rows.append(
+                  '<text x="52" y="{y}" fill="#d8e2e8" '
+                  'font-family="monospace" font-size="13">{lang}</text>'.format(
+                      y=y, lang=escape(language)
+                  )
+              )
+
+              rows.append(
+                  '<text x="846" y="{y}" text-anchor="end" fill="#6d8590" '
+                  'font-family="monospace" font-size="11">{pct:.1f}%</text>'.format(
+                      y=y, pct=pct
+                  )
+              )
+
+              rows.append(
+                  '<rect x="215" y="{y}" width="470" height="4" '
+                  'rx="2" fill="#10212a"/>'.format(y=y - 10)
+              )
+
+              rows.append(
+                  '<rect x="215" y="{y}" width="{w}" height="4" '
+                  'rx="2" fill="#42def4"/>'.format(y=y - 10, w=bar_width)
+              )
+
+          svg = (
+              '<svg xmlns="http://www.w3.org/2000/svg" '
+              'width="{w}" height="{h}" viewBox="0 0 {w} {h}">'
+              '<rect width="{w}" height="{h}" rx="12" '
+              'fill="#070b10" stroke="#16313a"/>'
+              '<text x="52" y="36" fill="#67e8f9" '
+              'font-family="monospace" font-size="10" letter-spacing="3">'
+              'LANGUAGE TELEMETRY</text>'
+              '<circle cx="838" cy="32" r="3" fill="#67e8f9"/>'
+              '<text x="824" y="36" text-anchor="end" fill="#4d6872" '
+              'font-family="monospace" font-size="9">LIVE</text>'
+              '{rows}</svg>'
+          ).format(w=width, h=height, rows="".join(rows))
+
+          Path("assets/languages.svg").write_text(svg, encoding="utf-8")
+
+          print("Language telemetry updated:")
+          for language, size in languages:
+              print(" - {}: {:.1f}%".format(
+                  language,
+                  (size / total_bytes) * 100
+              ))
+          PY
+
+      - name: Commit refreshed telemetry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/languages.svg
+
+          if git diff --cached --quiet; then
+            echo "No telemetry changes."
+          else
+            git commit -m "Refresh language telemetry"
+            git push
+          fi
