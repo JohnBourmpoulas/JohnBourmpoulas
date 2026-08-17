@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="./assets/typing.svg" width="92%" alt="Live profile signal" />
+<img src="./assets/mission.svg" width="92%" alt="Current mission signal" />
 
 <br><br>
 
