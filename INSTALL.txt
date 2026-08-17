@@ -1,0 +1,11 @@
+Upload the contents of this ZIP to JohnBourmpoulas/JohnBourmpoulas preserving folders.
+
+Then:
+1. Open Actions.
+2. Select "Update language telemetry".
+3. Run workflow once.
+4. It will regenerate assets/languages.svg from your public non-fork repositories.
+5. It updates daily automatically.
+
+If git push is denied:
+Settings > Actions > General > Workflow permissions > Read and write permissions.
