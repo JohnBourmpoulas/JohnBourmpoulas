@@ -1,11 +1,34 @@
-Upload the contents of this ZIP to JohnBourmpoulas/JohnBourmpoulas preserving folders.
+V6 — complete package
+
+Upload everything to:
+JohnBourmpoulas/JohnBourmpoulas
+
+Preserve this structure:
+
+README.md
+assets/hologram.svg
+assets/languages.svg
+.github/workflows/update-languages.yml
+.github/workflows/snake.yml
 
 Then:
-1. Open Actions.
-2. Select "Update language telemetry".
-3. Run workflow once.
-4. It will regenerate assets/languages.svg from your public non-fork repositories.
-5. It updates daily automatically.
 
-If git push is denied:
-Settings > Actions > General > Workflow permissions > Read and write permissions.
+1) Repository Settings > Actions > General
+   Workflow permissions:
+   ENABLE "Read and write permissions"
+
+2) Go to Actions > Update language telemetry > Run workflow
+   This creates/refreshes the language panel.
+
+3) Go to Actions > Generate contribution signal > Run workflow
+   This creates the animated cyan contribution snake on the "output" branch.
+
+4) Refresh your profile.
+
+The README already points to:
+https://raw.githubusercontent.com/JohnBourmpoulas/JohnBourmpoulas/output/github-contribution-grid-snake-dark.svg
+
+So once the snake workflow finishes successfully, it appears automatically.
+
+Language telemetry updates daily.
+Contribution animation regenerates daily.
