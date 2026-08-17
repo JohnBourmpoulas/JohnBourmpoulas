@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="78%">
+    <stop offset="0%" stop-color="#0a1117"/>
+    <stop offset="100%" stop-color="#030609"/>
+  </radialGradient>
+  <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#e6fdff"/>
+    <stop offset="18%" stop-color="#67efff" stop-opacity=".95"/>
+    <stop offset="48%" stop-color="#00d9ff" stop-opacity=".25"/>
+    <stop offset="100%" stop-color="#00d9ff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#1fd9ef" stroke-width=".4" opacity=".045"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="430" fill="url(#bg)"/>
+<rect width="1200" height="430" fill="url(#grid)"/>
+
+<g opacity=".11" stroke="#39def5" fill="none">
+  <line x1="110" y1="215" x2="1090" y2="215"/>
+  <line x1="600" y1="48" x2="600" y2="382"/>
+</g>
+
+<g transform="translate(600 215)" fill="none" stroke="#45e7fb" stroke-linecap="round">
+  <circle r="47" fill="url(#core)" stroke="none" filter="url(#glow)">
+    <animate attributeName="r" values="43;52;43" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <ellipse rx="112" ry="35" stroke-width="1.25" opacity=".72" stroke-dasharray="24 14 5 12">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse rx="112" ry="35" stroke-width=".9" opacity=".36" stroke-dasharray="12 18" transform="rotate(58)">
+    <animateTransform attributeName="transform" type="rotate" from="58" to="-302" dur="17s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse rx="112" ry="35" stroke-width=".9" opacity=".31" stroke-dasharray="9 17" transform="rotate(-58)">
+    <animateTransform attributeName="transform" type="rotate" from="-58" to="302" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <circle r="129" stroke-width=".7" opacity=".18" stroke-dasharray="2 8">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="22s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="158" stroke-width=".5" opacity=".1" stroke-dasharray="1 11"/>
+  <circle r="185" stroke-width=".4" opacity=".06" stroke-dasharray="1 14"/>
+
+  <path d="M0-158A158 158 0 0 1 158 0" stroke-width="1.25" opacity=".48" stroke-dasharray="28 10">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite"/>
+  </path>
+
+  <circle r="66" opacity="0" stroke-width=".8">
+    <animate attributeName="r" values="66;165" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".23;0" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="112" r="2.8" fill="#a5f8ff" stroke="none" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<path d="M600 215 L760 170 A170 170 0 0 1 770 220 Z" fill="#3ee6fa" opacity=".025">
+  <animateTransform attributeName="transform" type="rotate" from="0 600 215" to="360 600 215" dur="7.5s" repeatCount="indefinite"/>
+</path>
+
+<rect x="150" width="9" height="430" fill="#6af1ff" opacity=".035">
+  <animate attributeName="x" values="150;1040;150" dur="9s" repeatCount="indefinite"/>
+</rect>
+
+<g stroke="#39def5" opacity=".18" fill="none">
+  <path d="M68 75V58h18M1132 75V58h-18M68 355v17h18M1132 355v17h-18"/>
+  <path d="M110 145h125m-125 16h87m-87 16h52"/>
+  <path d="M1090 265H965m125 16h-87m87 16h-52"/>
+</g>
+
+<g transform="translate(503 352)" stroke="#45e7fb" opacity=".22" fill="none">
+  <path d="M0 10h12l5-7 7 15 8-12 6 8 10-4 8 1 7-3 9 2 8-6 9 10 8-5 10 2 14-1 8-7 7 12 8-8 7 4 14-1"/>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="118" viewBox="0 0 920 118">
+<style>
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+  .main{fill:#dce7ec;font-size:21px;font-weight:600}
+  .sub{fill:#61e8f8;font-size:14px}
+  .cursor{fill:#61e8f8}
+</style>
+<rect width="920" height="118" rx="12" fill="#070b10" stroke="#15313a"/>
+<circle cx="25" cy="24" r="3" fill="#61e8f8"/>
+<text x="40" y="29" class="sub">PROFILE SIGNAL // LIVE</text>
+
+<g>
+  <text x="40" y="68" class="main">
+    <tspan>Ioannis Bourmpoulas</tspan>
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;1" keyTimes="0;.20;.24;.25;.72;.73;.96;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="68" class="main" opacity="0">
+    <tspan>Passionate about Robotics and Artificial Intelligence.</tspan>
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" keyTimes="0;.24;.25;.48;.52;.53;.96;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="68" class="main" opacity="0">
+    <tspan>Building software, embedded systems and intelligent machines.</tspan>
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;.48;.51;.52;.53;.76;.80;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="40" y="68" class="main" opacity="0">
+    <tspan>Connecting code, electronics and the physical world.</tspan>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" keyTimes="0;.72;.75;.76;.79;.80;.81;1" dur="12s" repeatCount="indefinite"/>
+  </text>
+</g>
+
+<rect x="40" y="84" width="10" height="19" class="cursor">
+  <animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/>
+</rect>
+<text x="58" y="99" class="sub">ROBOTICS · EMBEDDED SYSTEMS · AI</text>
+</svg>
