@@ -97,7 +97,7 @@ const ioannis = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/JohnBourmpoulas/JohnBourmpoulas/output/github-contribution-grid-snake-dark.svg" width="94%" alt="Contribution signal animation" />
+<img src="https://raw.githubusercontent.com/JohnBourmpoulas/JohnBourmpoulas/gh-pages/github-contribution-grid-snake-dark.svg" width="94%" alt="Contribution signal animation" />
 
 </div>
 
