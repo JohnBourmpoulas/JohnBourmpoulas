@@ -23,18 +23,17 @@
 const ioannis = {
   role: "Information & Communication Systems Engineer",
 
-  interests: [
+  focus: [
     "Robotics",
     "Artificial Intelligence",
     "Autonomous Systems",
     "Internet of Things"
   ],
 
-  focus: {
+  engineering: {
     robotics: [
       "Robotics Software Development",
-      "Autonomous & Intelligent Systems",
-      "Embedded Systems"
+      "Embedded & Autonomous Systems"
     ],
 
     ai: [
@@ -43,21 +42,20 @@ const ioannis = {
       "AI Applications"
     ],
 
-    engineering: [
+    physicalComputing: [
       "IoT",
-      "3D Modeling",
-      "3D Printing",
+      "3D Modeling & 3D Printing",
       "Hardware / Software Integration"
     ]
   },
 
   mission:
-    "Develop intelligent systems where AI, software and the physical world meet.",
+    "Build intelligent systems where software, AI and the physical world meet.",
 
-  approach: [
-    "Hands-on projects",
-    "Technical challenges",
-    "Continuous learning"
+  currentlyExploring: [
+    "Robotics & AI Integration",
+    "Autonomous Intelligent Systems",
+    "Real-World AI Applications"
   ],
 
   rolesOfInterest: [
@@ -66,18 +64,15 @@ const ioannis = {
     "Autonomous Systems Engineer",
     "IoT Engineer",
     "Robotics & AI Research Engineer"
-  ],
-
-  openTo:
-    "Connecting with engineers, researchers and professionals working on Robotics, AI and Autonomous Systems."
+  ]
 };
 ```
 
-## `> tech_stack`
+## `> core_stack`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,dart,php,raspberrypi,arduino,linux,git,github,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,cpp,java,raspberrypi,arduino,linux,git,github,vscode&theme=dark" alt="Core engineering stack" />
 
 </div>
 
