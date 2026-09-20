@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="78" viewBox="0 0 1200 78">
+<defs>
+  <linearGradient id="l"><stop stop-color="#00d9ff" stop-opacity="0"/><stop offset=".5" stop-color="#00d9ff" stop-opacity=".65"/><stop offset="1" stop-color="#00d9ff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="78" fill="#05080c"/>
+<rect x="160" y="12" width="880" height="1" fill="url(#l)"/>
+<text x="600" y="43" text-anchor="middle" fill="#67e8f9" font-family="monospace" font-size="11" letter-spacing="3">SYSTEM ONLINE</text>
+<circle cx="690" cy="39" r="2.5" fill="#67e8f9">
+  <animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="61" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9" letter-spacing="2">BUILD // TEST // ITERATE // DEPLOY</text>
+</svg>
