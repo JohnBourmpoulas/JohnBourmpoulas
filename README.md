@@ -24,33 +24,29 @@ const ioannis = {
   role: "Information & Communication Systems Engineer",
   direction: "Robotics Software Engineering",
 
-  focus: [
+  interests: [
     "Robotics",
     "Artificial Intelligence",
-    "Computer Vision",
-    "Embedded Systems"
-  ],
-
-  stack: [
-    "Python",
-    "C++",
-    "Linux",
-    "ROS 2",
-    "OpenCV",
-    "Arduino",
-    "Raspberry Pi"
-  ],
-
-  interests: [
-    "AI & LLM Applications",
-    "AI Automation",
     "Autonomous Systems",
-    "3D Modeling & Prototyping",
-    "Cybersecurity"
+    "Internet of Things"
   ],
 
-  about:
-    "Building software, AI-powered applications and embedded systems for intelligent machines and robotics."
+  areas: [
+    "Robotics Software Development",
+    "Computer Vision",
+    "Large Language Models",
+    "AI Applications",
+    "Embedded Systems",
+    "3D Modeling & 3D Printing"
+  ],
+
+  rolesOfInterest: [
+    "Robotics Software Engineer",
+    "AI Engineer",
+    "Autonomous Systems Engineer",
+    "IoT Engineer",
+    "Robotics & AI Research Engineer"
+  ]
 };
 ```
 
