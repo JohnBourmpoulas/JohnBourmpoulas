@@ -28,14 +28,15 @@ const ioannis = {
     "Robotics",
     "Artificial Intelligence",
     "Autonomous Systems",
-    "Computer Vision",
-    "Large Language Models"
+    "Large Language Models",
+    "Computer Vision"
   ],
 
   handsOnExperience: [
     "Python",
+    "Software Development",
+    "Large Language Models",
     "Computer Vision & OpenCV",
-    "AI-assisted Software Development",
     "Arduino & Raspberry Pi",
     "3D Modeling & 3D Printing"
   ],
