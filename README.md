@@ -28,24 +28,29 @@ const ioannis = {
     "Robotics",
     "Artificial Intelligence",
     "Autonomous Systems",
-    "Internet of Things"
+    "Computer Vision",
+    "Large Language Models"
   ],
 
-  areas: [
-    "Robotics Software Development",
-    "Computer Vision",
-    "Large Language Models",
-    "AI Applications",
-    "Embedded Systems",
+  handsOnExperience: [
+    "Python",
+    "Computer Vision & OpenCV",
+    "AI-assisted Software Development",
+    "Arduino & Raspberry Pi",
     "3D Modeling & 3D Printing"
+  ],
+
+  currentlyExploring: [
+    "Robotics Software Development",
+    "ROS 2",
+    "Embedded Systems",
+    "AI for Robotics"
   ],
 
   rolesOfInterest: [
     "Robotics Software Engineer",
-    "AI Engineer",
-    "Autonomous Systems Engineer",
-    "IoT Engineer",
-    "Robotics & AI Research Engineer"
+    "Robotics & AI Engineer",
+    "Autonomous Systems Engineer"
   ]
 };
 ```
