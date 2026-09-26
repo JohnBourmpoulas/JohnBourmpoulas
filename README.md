@@ -22,37 +22,38 @@
 ```ts
 const ioannis = {
   role: "Information & Communication Systems Engineer",
-  direction: "Robotics Software Engineering",
+  focus: "Robotics Software & Intelligent Systems",
 
-  interests: [
-    "Robotics",
+  direction: [
+    "Robotics Software Development",
     "Artificial Intelligence",
-    "Autonomous Systems",
-    "Large Language Models",
-    "Computer Vision"
+    "Autonomous Systems"
   ],
 
-  handsOnExperience: [
-    "Python",
-    "Software Development",
+  interests: [
+    "ROS 2",
+    "Computer Vision",
     "Large Language Models",
-    "Computer Vision & OpenCV",
-    "Arduino & Raspberry Pi",
+    "Embedded Systems",
     "3D Modeling & 3D Printing"
   ],
 
   currentlyExploring: [
     "Robotics Software Development",
     "ROS 2",
-    "Embedded Systems",
+    "Autonomous Systems",
     "AI for Robotics"
   ],
 
-  rolesOfInterest: [
-    "Robotics Software Engineer",
-    "Robotics & AI Engineer",
-    "Autonomous Systems Engineer"
-  ]
+  approach: {
+    build: "Turn ideas into working prototypes",
+    test: "See what works — and what doesn't",
+    learn: "Learn through building and experimentation",
+    improve: "Iterate, refine, and build it better"
+  },
+
+  mission:
+    "Bring software, AI and hardware together to build intelligent real-world systems."
 };
 ```
 
