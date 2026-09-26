@@ -47,7 +47,7 @@ const ioannis = {
 
   approach: {
     build: "Turn ideas into working prototypes",
-    test: "See what works — and what doesn't",
+    test: "See what works - and what doesn't",
     learn: "Learn through building and experimentation",
     improve: "Iterate, refine, and build it better"
   },
