@@ -21,39 +21,22 @@
 
 ```ts
 const ioannis = {
-  role: "Information & Communication Systems Engineer",
-  focus: "Robotics Software & Intelligent Systems",
-
-  direction: [
-    "Robotics Software Development",
-    "Artificial Intelligence",
-    "Autonomous Systems"
-  ],
+  education: {
+    university: "University of the Aegean",
+    department: "Information & Communication Systems Engineering"
+  },
 
   interests: [
-    "ROS 2",
+    "Software Development",
+    "Robotics & Autonomous Systems",
+    "Artificial Intelligence",
     "Computer Vision",
-    "Large Language Models",
     "Embedded Systems",
     "3D Modeling & 3D Printing"
   ],
 
-  currentlyExploring: [
-    "Robotics Software Development",
-    "ROS 2",
-    "Autonomous Systems",
-    "AI for Robotics"
-  ],
-
-  approach: {
-    build: "Turn ideas into working prototypes",
-    test: "See what works - and what doesn't",
-    learn: "Learn through building and experimentation",
-    improve: "Iterate, refine, and build it better"
-  },
-
-  mission:
-    "Bring software, AI and hardware together to build intelligent real-world systems."
+  about:
+    "I enjoy building projects, exploring new technologies, and continuously improving my technical skills."
 };
 ```
 
